@@ -1,2 +1,1095 @@
-# df
-dfasdf
+# Chicago Crime Data from 2001 to present
+
+This repo contains a data set from the Chicago Police department for crimes committed between 2001 to the present(with the exception of murders where data exists for each victim). This project is dedicated to doing some cool data analysis and visualization on this already curated dataset.
+
+## Description of Columns:
+<table class="table table-borderless table-condensed table-discrete schema-table">
+
+<thead>
+
+<tr>
+
+<th scope="col" class="column-name">Column Name</th>
+
+<th scope="col" class="column-description">Description</th>
+
+<th scope="col" class="column-type">Type</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr class="column-summary" data-column="id" aria-expanded="false" aria-haspopup="true" role="link" tabindex="0">
+
+<td class="column-name" scope="row">ID</td>
+
+<td class="column-description">
+
+<div class="contents clamped" data-original-height="21" style="height: 100px;"><span class="Linkify">Unique identifier for the record.</span></div>
+
+</td>
+
+<td class="column-type">
+
+<div><span aria-hidden="true" class="icon icon-number"></span><span class="type-name" data-name="number">Number</span></div>
+
+</td>
+
+
+
+</tr>
+
+<tr class="column-details" data-column="id" style="display: none;">
+
+<td colspan="4">
+
+<dl class="contents schema-detail-groups" style="height: 0px; padding-top: 0px; padding-bottom: 0px;">
+
+<div class="schema-detail-group">
+
+<dt class="schema-detail-group-title">Data Type</dt>
+
+<dd class="schema-detail-group-value">[Number](https://dev.socrata.com/docs/datatypes/number.html)</dd>
+
+</div>
+
+<div class="schema-detail-group">
+
+<dt class="schema-detail-group-title">API Field Name</dt>
+
+<dd class="schema-detail-group-value">id</dd>
+
+</div>
+
+</dl>
+
+</td>
+
+</tr>
+
+<tr class="column-summary" data-column="case_number" aria-expanded="false" aria-haspopup="true" role="link" tabindex="0">
+
+<td class="column-name" scope="row">Case Number</td>
+
+<td class="column-description">
+
+<div class="contents clamped" data-original-height="21" style="height: 100px;"><span class="Linkify">The Chicago Police Department RD Number (Records Division Number), which is unique to the incident.</span></div>
+
+</td>
+
+<td class="column-type">
+
+<div><span aria-hidden="true" class="icon icon-text"></span><span class="type-name" data-name="text">Plain Text</span></div>
+
+</td>
+
+
+
+</tr>
+
+<tr class="column-details" data-column="case_number" style="display: none;">
+
+<td colspan="4">
+
+<dl class="contents schema-detail-groups" style="height: 0px; padding-top: 0px; padding-bottom: 0px;">
+
+<div class="schema-detail-group">
+
+<dt class="schema-detail-group-title">Data Type</dt>
+
+<dd class="schema-detail-group-value">[Text](https://dev.socrata.com/docs/datatypes/text.html)</dd>
+
+</div>
+
+<div class="schema-detail-group">
+
+<dt class="schema-detail-group-title">API Field Name</dt>
+
+<dd class="schema-detail-group-value">case_number</dd>
+
+</div>
+
+</dl>
+
+</td>
+
+</tr>
+
+<tr class="column-summary" data-column="date" aria-expanded="false" aria-haspopup="true" role="link" tabindex="0">
+
+<td class="column-name" scope="row">Date</td>
+
+<td class="column-description">
+
+<div class="contents clamped" data-original-height="21" style="height: 100px;"><span class="Linkify">Date when the incident occurred. this is sometimes a best estimate.</span></div>
+
+</td>
+
+<td class="column-type">
+
+<div><span aria-hidden="true" class="icon icon-date"></span><span class="type-name" data-name="calendar_date">Date & Time</span></div>
+
+</td>
+
+
+
+</tr>
+
+<tr class="column-details" data-column="date" style="display: none;">
+
+<td colspan="4">
+
+<dl class="contents schema-detail-groups" style="height: 0px; padding-top: 0px; padding-bottom: 0px;">
+
+<div class="schema-detail-group">
+
+<dt class="schema-detail-group-title">Data Type</dt>
+
+<dd class="schema-detail-group-value">[Floating Timestamp](https://dev.socrata.com/docs/datatypes/floating_timestamp.html)</dd>
+
+</div>
+
+<div class="schema-detail-group">
+
+<dt class="schema-detail-group-title">API Field Name</dt>
+
+<dd class="schema-detail-group-value">date</dd>
+
+</div>
+
+</dl>
+
+</td>
+
+</tr>
+
+<tr class="column-summary" data-column="block" aria-expanded="false" aria-haspopup="true" role="link" tabindex="0">
+
+<td class="column-name" scope="row">Block</td>
+
+<td class="column-description">
+
+<div class="contents clamped" data-original-height="21" style="height: 45px;"><span class="Linkify">The partially redacted address where the incident occurred, placing it on the same block as the actual address.</span></div>
+
+</td>
+
+<td class="column-type">
+
+<div><span aria-hidden="true" class="icon icon-text"></span><span class="type-name" data-name="text">Plain Text</span></div>
+
+</td>
+
+
+
+</tr>
+
+<tr class="column-details" data-column="block" style="display: none;">
+
+<td colspan="4">
+
+<dl class="contents schema-detail-groups" style="height: 0px; padding-top: 0px; padding-bottom: 0px;">
+
+<div class="schema-detail-group">
+
+<dt class="schema-detail-group-title">Data Type</dt>
+
+<dd class="schema-detail-group-value">[Text](https://dev.socrata.com/docs/datatypes/text.html)</dd>
+
+</div>
+
+<div class="schema-detail-group">
+
+<dt class="schema-detail-group-title">API Field Name</dt>
+
+<dd class="schema-detail-group-value">block</dd>
+
+</div>
+
+</dl>
+
+</td>
+
+</tr>
+
+<tr class="column-summary" data-column="iucr" aria-expanded="false" aria-haspopup="true" role="link" tabindex="0">
+
+<td class="column-name" scope="row">IUCR</td>
+
+<td class="column-description">
+
+<div class="contents clamped" data-original-height="21" style="height: 65px;"><span class="Linkify">The Illinois Unifrom Crime Reporting code. This is directly linked to the Primary Type and Description. See the list of IUCR codes at [https://data.cityofchicago.org/d/c7ck-438e](https://data.cityofchicago.org/d/c7ck-438e).</span></div>
+
+</td>
+
+<td class="column-type">
+
+<div><span aria-hidden="true" class="icon icon-text"></span><span class="type-name" data-name="text">Plain Text</span></div>
+
+</td>
+
+
+
+</tr>
+
+<tr class="column-details" data-column="iucr" style="display: none;">
+
+<td colspan="4">
+
+<dl class="contents schema-detail-groups" style="height: 0px; padding-top: 0px; padding-bottom: 0px;">
+
+<div class="schema-detail-group">
+
+<dt class="schema-detail-group-title">Data Type</dt>
+
+<dd class="schema-detail-group-value">[Text](https://dev.socrata.com/docs/datatypes/text.html)</dd>
+
+</div>
+
+<div class="schema-detail-group">
+
+<dt class="schema-detail-group-title">API Field Name</dt>
+
+<dd class="schema-detail-group-value">iucr</dd>
+
+</div>
+
+</dl>
+
+</td>
+
+</tr>
+
+<tr class="column-summary" data-column="primary_type" aria-expanded="false" aria-haspopup="true" role="link" tabindex="0">
+
+<td class="column-name" scope="row">Primary Type</td>
+
+<td class="column-description">
+
+<div class="contents clamped" data-original-height="21" style="height: 100px;"><span class="Linkify">The primary description of the IUCR code.</span></div>
+
+</td>
+
+<td class="column-type">
+
+<div><span aria-hidden="true" class="icon icon-text"></span><span class="type-name" data-name="text">Plain Text</span></div>
+
+</td>
+
+
+
+</tr>
+
+<tr class="column-details" data-column="primary_type" style="display: none;">
+
+<td colspan="4">
+
+<dl class="contents schema-detail-groups" style="height: 0px; padding-top: 0px; padding-bottom: 0px;">
+
+<div class="schema-detail-group">
+
+<dt class="schema-detail-group-title">Data Type</dt>
+
+<dd class="schema-detail-group-value">[Text](https://dev.socrata.com/docs/datatypes/text.html)</dd>
+
+</div>
+
+<div class="schema-detail-group">
+
+<dt class="schema-detail-group-title">API Field Name</dt>
+
+<dd class="schema-detail-group-value">primary_type</dd>
+
+</div>
+
+</dl>
+
+</td>
+
+</tr>
+
+<tr class="column-summary" data-column="description" aria-expanded="false" aria-haspopup="true" role="link" tabindex="0">
+
+<td class="column-name" scope="row">Description</td>
+
+<td class="column-description">
+
+<div class="contents clamped" data-original-height="21" style="height: 45px;"><span class="Linkify">The secondary description of the IUCR code, a subcategory of the primary description.</span></div>
+
+</td>
+
+<td class="column-type">
+
+<div><span aria-hidden="true" class="icon icon-text"></span><span class="type-name" data-name="text">Plain Text</span></div>
+
+</td>
+
+
+
+</tr>
+
+<tr class="column-details" data-column="description" style="display: none;">
+
+<td colspan="4">
+
+<dl class="contents schema-detail-groups" style="height: 0px; padding-top: 0px; padding-bottom: 0px;">
+
+<div class="schema-detail-group">
+
+<dt class="schema-detail-group-title">Data Type</dt>
+
+<dd class="schema-detail-group-value">[Text](https://dev.socrata.com/docs/datatypes/text.html)</dd>
+
+</div>
+
+<div class="schema-detail-group">
+
+<dt class="schema-detail-group-title">API Field Name</dt>
+
+<dd class="schema-detail-group-value">description</dd>
+
+</div>
+
+</dl>
+
+</td>
+
+</tr>
+
+<tr class="column-summary" data-column="location_description" aria-expanded="false" aria-haspopup="true" role="link" tabindex="0">
+
+<td class="column-name" scope="row">Location Description</td>
+
+<td class="column-description">
+
+<div class="contents clamped" data-original-height="21" style="height: 100px;"><span class="Linkify">Description of the location where the incident occurred.</span></div>
+
+</td>
+
+<td class="column-type">
+
+<div><span aria-hidden="true" class="icon icon-text"></span><span class="type-name" data-name="text">Plain Text</span></div>
+
+</td>
+
+
+
+</tr>
+
+<tr class="column-details" data-column="location_description" style="display: none;">
+
+<td colspan="4">
+
+<dl class="contents schema-detail-groups" style="height: 0px; padding-top: 0px; padding-bottom: 0px;">
+
+<div class="schema-detail-group">
+
+<dt class="schema-detail-group-title">Data Type</dt>
+
+<dd class="schema-detail-group-value">[Text](https://dev.socrata.com/docs/datatypes/text.html)</dd>
+
+</div>
+
+<div class="schema-detail-group">
+
+<dt class="schema-detail-group-title">API Field Name</dt>
+
+<dd class="schema-detail-group-value">location_description</dd>
+
+</div>
+
+</dl>
+
+</td>
+
+</tr>
+
+<tr class="column-summary" data-column="arrest" aria-expanded="false" aria-haspopup="true" role="link" tabindex="0">
+
+<td class="column-name" scope="row">Arrest</td>
+
+<td class="column-description">
+
+<div class="contents clamped" data-original-height="21" style="height: 100px;"><span class="Linkify">Indicates whether an arrest was made.</span></div>
+
+</td>
+
+<td class="column-type">
+
+<div><span aria-hidden="true" class="icon icon-check"></span><span class="type-name" data-name="checkbox">Checkbox</span></div>
+
+</td>
+
+
+
+</tr>
+
+<tr class="column-details" data-column="arrest" style="display: none;">
+
+<td colspan="4">
+
+<dl class="contents schema-detail-groups" style="height: 0px; padding-top: 0px; padding-bottom: 0px;">
+
+<div class="schema-detail-group">
+
+<dt class="schema-detail-group-title">Data Type</dt>
+
+<dd class="schema-detail-group-value">[Checkbox](https://dev.socrata.com/docs/datatypes/checkbox.html)</dd>
+
+</div>
+
+<div class="schema-detail-group">
+
+<dt class="schema-detail-group-title">API Field Name</dt>
+
+<dd class="schema-detail-group-value">arrest</dd>
+
+</div>
+
+</dl>
+
+</td>
+
+</tr>
+
+<tr class="column-summary" data-column="domestic" aria-expanded="false" aria-haspopup="true" role="link" tabindex="0">
+
+<td class="column-name" scope="row">Domestic</td>
+
+<td class="column-description">
+
+<div class="contents clamped" data-original-height="21" style="height: 100px;"><span class="Linkify">Indicates whether the incident was domestic-related as defined by the Illinois Domestic Violence Act.</span></div>
+
+</td>
+
+<td class="column-type">
+
+<div><span aria-hidden="true" class="icon icon-check"></span><span class="type-name" data-name="checkbox">Checkbox</span></div>
+
+</td>
+
+
+
+</tr>
+
+<tr class="column-details" data-column="domestic" style="display: none;">
+
+<td colspan="4">
+
+<dl class="contents schema-detail-groups" style="height: 0px; padding-top: 0px; padding-bottom: 0px;">
+
+<div class="schema-detail-group">
+
+<dt class="schema-detail-group-title">Data Type</dt>
+
+<dd class="schema-detail-group-value">[Checkbox](https://dev.socrata.com/docs/datatypes/checkbox.html)</dd>
+
+</div>
+
+<div class="schema-detail-group">
+
+<dt class="schema-detail-group-title">API Field Name</dt>
+
+<dd class="schema-detail-group-value">domestic</dd>
+
+</div>
+
+</dl>
+
+</td>
+
+</tr>
+
+<tr class="column-summary" data-column="beat" aria-expanded="false" aria-haspopup="true" role="link" tabindex="0">
+
+<td class="column-name" scope="row">Beat</td>
+
+<td class="column-description">
+
+<div class="contents clamped" data-original-height="21" style="height: 120px;"><span class="Linkify">Indicates the beat where the incident occurred. A beat is the smallest police geographic area – each beat has a dedicated police beat car. Three to five beats make up a police sector, and three sectors make up a police district. The Chicago Police Department has 22 police districts. See the beats at [https://data.cityofchicago.org/d/aerh-rz74](https://data.cityofchicago.org/d/aerh-rz74).</span></div>
+
+</td>
+
+<td class="column-type">
+
+<div><span aria-hidden="true" class="icon icon-text"></span><span class="type-name" data-name="text">Plain Text</span></div>
+
+</td>
+
+
+
+</tr>
+
+<tr class="column-details" data-column="beat" style="display: none;">
+
+<td colspan="4">
+
+<dl class="contents schema-detail-groups" style="height: 0px; padding-top: 0px; padding-bottom: 0px;">
+
+<div class="schema-detail-group">
+
+<dt class="schema-detail-group-title">Data Type</dt>
+
+<dd class="schema-detail-group-value">[Text](https://dev.socrata.com/docs/datatypes/text.html)</dd>
+
+</div>
+
+<div class="schema-detail-group">
+
+<dt class="schema-detail-group-title">API Field Name</dt>
+
+<dd class="schema-detail-group-value">beat</dd>
+
+</div>
+
+</dl>
+
+</td>
+
+</tr>
+
+<tr class="column-summary" data-column="district" aria-expanded="false" aria-haspopup="true" role="link" tabindex="0">
+
+<td class="column-name" scope="row">District</td>
+
+<td class="column-description">
+
+<div class="contents clamped" data-original-height="21" style="height: 80px;"><span class="Linkify">Indicates the police district where the incident occurred. See the districts at [https://data.cityofchicago.org/d/fthy-xz3r](https://data.cityofchicago.org/d/fthy-xz3r).</span></div>
+
+</td>
+
+<td class="column-type">
+
+<div><span aria-hidden="true" class="icon icon-text"></span><span class="type-name" data-name="text">Plain Text</span></div>
+
+</td>
+
+
+
+</tr>
+
+<tr class="column-details" data-column="district" style="display: none;">
+
+<td colspan="4">
+
+<dl class="contents schema-detail-groups" style="height: 0px; padding-top: 0px; padding-bottom: 0px;">
+
+<div class="schema-detail-group">
+
+<dt class="schema-detail-group-title">Data Type</dt>
+
+<dd class="schema-detail-group-value">[Text](https://dev.socrata.com/docs/datatypes/text.html)</dd>
+
+</div>
+
+<div class="schema-detail-group">
+
+<dt class="schema-detail-group-title">API Field Name</dt>
+
+<dd class="schema-detail-group-value">district</dd>
+
+</div>
+
+</dl>
+
+</td>
+
+</tr>
+
+<tr class="column-summary" data-column="ward" aria-expanded="false" aria-haspopup="true" role="link" tabindex="0">
+
+<td class="column-name" scope="row">Ward</td>
+
+<td class="column-description">
+
+<div class="contents clamped" data-original-height="21" style="height: 100px;"><span class="Linkify">The ward (City Council district) where the incident occurred. See the wards at [https://data.cityofchicago.org/d/sp34-6z76](https://data.cityofchicago.org/d/sp34-6z76).</span></div>
+
+</td>
+
+<td class="column-type">
+
+<div><span aria-hidden="true" class="icon icon-number"></span><span class="type-name" data-name="number">Number</span></div>
+
+</td>
+
+
+
+</tr>
+
+<tr class="column-details" data-column="ward" style="display: none;">
+
+<td colspan="4">
+
+<dl class="contents schema-detail-groups" style="height: 0px; padding-top: 0px; padding-bottom: 0px;">
+
+<div class="schema-detail-group">
+
+<dt class="schema-detail-group-title">Data Type</dt>
+
+<dd class="schema-detail-group-value">[Number](https://dev.socrata.com/docs/datatypes/number.html)</dd>
+
+</div>
+
+<div class="schema-detail-group">
+
+<dt class="schema-detail-group-title">API Field Name</dt>
+
+<dd class="schema-detail-group-value">ward</dd>
+
+</div>
+
+</dl>
+
+</td>
+
+</tr>
+
+<tr class="column-summary" data-column="community_area" aria-expanded="false" aria-haspopup="true" role="link" tabindex="0">
+
+<td class="column-name" scope="row">Community Area</td>
+
+<td class="column-description">
+
+<div class="contents clamped" data-original-height="21" style="height: 100px;"><span class="Linkify">Indicates the community area where the incident occurred. Chicago has 77 community areas. See the community areas at [https://data.cityofchicago.org/d/cauq-8yn6](https://data.cityofchicago.org/d/cauq-8yn6).</span></div>
+
+</td>
+
+<td class="column-type">
+
+<div><span aria-hidden="true" class="icon icon-text"></span><span class="type-name" data-name="text">Plain Text</span></div>
+
+</td>
+
+
+
+</tr>
+
+<tr class="column-details" data-column="community_area" style="display: none;">
+
+<td colspan="4">
+
+<dl class="contents schema-detail-groups" style="height: 0px; padding-top: 0px; padding-bottom: 0px;">
+
+<div class="schema-detail-group">
+
+<dt class="schema-detail-group-title">Data Type</dt>
+
+<dd class="schema-detail-group-value">[Text](https://dev.socrata.com/docs/datatypes/text.html)</dd>
+
+</div>
+
+<div class="schema-detail-group">
+
+<dt class="schema-detail-group-title">API Field Name</dt>
+
+<dd class="schema-detail-group-value">community_area</dd>
+
+</div>
+
+</dl>
+
+</td>
+
+</tr>
+
+<tr class="column-summary" data-column="fbi_code" aria-expanded="false" aria-haspopup="true" role="link" tabindex="0">
+
+<td class="column-name" scope="row">FBI Code</td>
+
+<td class="column-description">
+
+<div class="contents clamped" data-original-height="21" style="height: 100px;"><span class="Linkify">Indicates the crime classification as outlined in the FBI's National Incident-Based Reporting System (NIBRS). See the Chicago Police Department listing of these classifications at [http://gis.chicagopolice.org/clearmap_crime_sums/crime_types.html](http://gis.chicagopolice.org/clearmap_crime_sums/crime_types.html).</span></div>
+
+</td>
+
+<td class="column-type">
+
+<div><span aria-hidden="true" class="icon icon-text"></span><span class="type-name" data-name="text">Plain Text</span></div>
+
+</td>
+
+
+
+</tr>
+
+<tr class="column-details" data-column="fbi_code" style="display: none;">
+
+<td colspan="4">
+
+<dl class="contents schema-detail-groups" style="height: 0px; padding-top: 0px; padding-bottom: 0px;">
+
+<div class="schema-detail-group">
+
+<dt class="schema-detail-group-title">Data Type</dt>
+
+<dd class="schema-detail-group-value">[Text](https://dev.socrata.com/docs/datatypes/text.html)</dd>
+
+</div>
+
+<div class="schema-detail-group">
+
+<dt class="schema-detail-group-title">API Field Name</dt>
+
+<dd class="schema-detail-group-value">fbi_code</dd>
+
+</div>
+
+</dl>
+
+</td>
+
+</tr>
+
+<tr class="column-summary" data-column="x_coordinate" aria-expanded="false" aria-haspopup="true" role="link" tabindex="0">
+
+<td class="column-name" scope="row">X Coordinate</td>
+
+<td class="column-description">
+
+<div class="contents clamped" data-original-height="21" style="height: 100px;"><span class="Linkify">The x coordinate of the location where the incident occurred in State Plane Illinois East NAD 1983 projection. This location is shifted from the actual location for partial redaction but falls on the same block.</span></div>
+
+</td>
+
+<td class="column-type">
+
+<div><span aria-hidden="true" class="icon icon-number"></span><span class="type-name" data-name="number">Number</span></div>
+
+</td>
+
+
+
+</tr>
+
+<tr class="column-details" data-column="x_coordinate" style="display: none;">
+
+<td colspan="4">
+
+<dl class="contents schema-detail-groups" style="height: 0px; padding-top: 0px; padding-bottom: 0px;">
+
+<div class="schema-detail-group">
+
+<dt class="schema-detail-group-title">Data Type</dt>
+
+<dd class="schema-detail-group-value">[Number](https://dev.socrata.com/docs/datatypes/number.html)</dd>
+
+</div>
+
+<div class="schema-detail-group">
+
+<dt class="schema-detail-group-title">API Field Name</dt>
+
+<dd class="schema-detail-group-value">x_coordinate</dd>
+
+</div>
+
+</dl>
+
+</td>
+
+</tr>
+
+<tr class="column-summary" data-column="y_coordinate" aria-expanded="false" aria-haspopup="true" role="link" tabindex="0">
+
+<td class="column-name" scope="row">Y Coordinate</td>
+
+<td class="column-description">
+
+<div class="contents clamped" data-original-height="21" style="height: 100px;"><span class="Linkify">The y coordinate of the location where the incident occurred in State Plane Illinois East NAD 1983 projection. This location is shifted from the actual location for partial redaction but falls on the same block.</span></div>
+
+</td>
+
+<td class="column-type">
+
+<div><span aria-hidden="true" class="icon icon-number"></span><span class="type-name" data-name="number">Number</span></div>
+
+</td>
+
+
+
+</tr>
+
+<tr class="column-details" data-column="y_coordinate" style="display: none;">
+
+<td colspan="4">
+
+<dl class="contents schema-detail-groups" style="height: 0px; padding-top: 0px; padding-bottom: 0px;">
+
+<div class="schema-detail-group">
+
+<dt class="schema-detail-group-title">Data Type</dt>
+
+<dd class="schema-detail-group-value">[Number](https://dev.socrata.com/docs/datatypes/number.html)</dd>
+
+</div>
+
+<div class="schema-detail-group">
+
+<dt class="schema-detail-group-title">API Field Name</dt>
+
+<dd class="schema-detail-group-value">y_coordinate</dd>
+
+</div>
+
+</dl>
+
+</td>
+
+</tr>
+
+<tr class="column-summary" data-column="year" aria-expanded="false" aria-haspopup="true" role="link" tabindex="0">
+
+<td class="column-name" scope="row">Year</td>
+
+<td class="column-description">
+
+<div class="contents clamped" data-original-height="21" style="height: 100px;"><span class="Linkify">Year the incident occurred.</span></div>
+
+</td>
+
+<td class="column-type">
+
+<div><span aria-hidden="true" class="icon icon-number"></span><span class="type-name" data-name="number">Number</span></div>
+
+</td>
+
+
+
+</tr>
+
+<tr class="column-details" data-column="year" style="display: none;">
+
+<td colspan="4">
+
+<dl class="contents schema-detail-groups" style="height: 0px; padding-top: 0px; padding-bottom: 0px;">
+
+<div class="schema-detail-group">
+
+<dt class="schema-detail-group-title">Data Type</dt>
+
+<dd class="schema-detail-group-value">[Number](https://dev.socrata.com/docs/datatypes/number.html)</dd>
+
+</div>
+
+<div class="schema-detail-group">
+
+<dt class="schema-detail-group-title">API Field Name</dt>
+
+<dd class="schema-detail-group-value">year</dd>
+
+</div>
+
+</dl>
+
+</td>
+
+</tr>
+
+<tr class="column-summary" data-column="updated_on" aria-expanded="false" aria-haspopup="true" role="link" tabindex="0">
+
+<td class="column-name" scope="row">Updated On</td>
+
+<td class="column-description">
+
+<div class="contents clamped" data-original-height="21" style="height: 100px;"><span class="Linkify">Date and time the record was last updated.</span></div>
+
+</td>
+
+<td class="column-type">
+
+<div><span aria-hidden="true" class="icon icon-date"></span><span class="type-name" data-name="calendar_date">Date & Time</span></div>
+
+</td>
+
+
+
+</tr>
+
+<tr class="column-details" data-column="updated_on" style="display: none;">
+
+<td colspan="4">
+
+<dl class="contents schema-detail-groups" style="height: 0px; padding-top: 0px; padding-bottom: 0px;">
+
+<div class="schema-detail-group">
+
+<dt class="schema-detail-group-title">Data Type</dt>
+
+<dd class="schema-detail-group-value">[Floating Timestamp](https://dev.socrata.com/docs/datatypes/floating_timestamp.html)</dd>
+
+</div>
+
+<div class="schema-detail-group">
+
+<dt class="schema-detail-group-title">API Field Name</dt>
+
+<dd class="schema-detail-group-value">updated_on</dd>
+
+</div>
+
+</dl>
+
+</td>
+
+</tr>
+
+<tr class="column-summary" data-column="latitude" aria-expanded="false" aria-haspopup="true" role="link" tabindex="0">
+
+<td class="column-name" scope="row">Latitude</td>
+
+<td class="column-description">
+
+<div class="contents clamped" data-original-height="21" style="height: 100px;"><span class="Linkify">The latitude of the location where the incident occurred. This location is shifted from the actual location for partial redaction but falls on the same block.</span></div>
+
+</td>
+
+<td class="column-type">
+
+<div><span aria-hidden="true" class="icon icon-number"></span><span class="type-name" data-name="number">Number</span></div>
+
+</td>
+
+
+
+</tr>
+
+<tr class="column-details" data-column="latitude" style="display: none;">
+
+<td colspan="4">
+
+<dl class="contents schema-detail-groups" style="height: 0px; padding-top: 0px; padding-bottom: 0px;">
+
+<div class="schema-detail-group">
+
+<dt class="schema-detail-group-title">Data Type</dt>
+
+<dd class="schema-detail-group-value">[Number](https://dev.socrata.com/docs/datatypes/number.html)</dd>
+
+</div>
+
+<div class="schema-detail-group">
+
+<dt class="schema-detail-group-title">API Field Name</dt>
+
+<dd class="schema-detail-group-value">latitude</dd>
+
+</div>
+
+</dl>
+
+</td>
+
+</tr>
+
+<tr class="column-summary" data-column="longitude" aria-expanded="false" aria-haspopup="true" role="link" tabindex="0">
+
+<td class="column-name" scope="row">Longitude</td>
+
+<td class="column-description">
+
+<div class="contents clamped" data-original-height="21" style="height: 100px;"><span class="Linkify">The longitude of the location where the incident occurred. This location is shifted from the actual location for partial redaction but falls on the same block.</span></div>
+
+</td>
+
+<td class="column-type">
+
+<div><span aria-hidden="true" class="icon icon-number"></span><span class="type-name" data-name="number">Number</span></div>
+
+</td>
+
+
+
+</tr>
+
+<tr class="column-details" data-column="longitude" style="display: none;">
+
+<td colspan="4">
+
+<dl class="contents schema-detail-groups" style="height: 0px; padding-top: 0px; padding-bottom: 0px;">
+
+<div class="schema-detail-group">
+
+<dt class="schema-detail-group-title">Data Type</dt>
+
+<dd class="schema-detail-group-value">[Number](https://dev.socrata.com/docs/datatypes/number.html)</dd>
+
+</div>
+
+<div class="schema-detail-group">
+
+<dt class="schema-detail-group-title">API Field Name</dt>
+
+<dd class="schema-detail-group-value">longitude</dd>
+
+</div>
+
+</dl>
+
+</td>
+
+</tr>
+
+<tr class="column-summary" data-column="location" aria-expanded="false" aria-haspopup="true" role="link" tabindex="0">
+
+<td class="column-name" scope="row">Location</td>
+
+<td class="column-description">
+
+<div class="contents clamped" data-original-height="21" style="height: 100px;"><span class="Linkify">The location where the incident occurred in a format that allows for creation of maps and other geographic operations on this data portal. This location is shifted from the actual location for partial redaction but falls on the same block.</span></div>
+
+</td>
+
+<td class="column-type">
+
+<div><span aria-hidden="true" class="icon icon-map"></span><span class="type-name" data-name="location">Location</span></div>
+
+</td>
+
+
+
+</tr>
+
+<tr class="column-details" data-column="location" style="display: none;">
+
+<td colspan="4">
+
+<dl class="contents schema-detail-groups" style="height: 0px; padding-top: 0px; padding-bottom: 0px;">
+
+<div class="schema-detail-group">
+
+<dt class="schema-detail-group-title">Data Type</dt>
+
+<dd class="schema-detail-group-value">[Location](https://dev.socrata.com/docs/datatypes/location.html)</dd>
+
+</div>
+
+<div class="schema-detail-group">
+
+<dt class="schema-detail-group-title">API Field Name</dt>
+
+<dd class="schema-detail-group-value">location</dd>
+
+</div>
+
+</dl>
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+
+
+
+
+
+
+
+
+
+
+## Source of dataset:
+[Chicago Crime Data from 2001 to present](https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-present/ijzp-q8t2)
