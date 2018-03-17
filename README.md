@@ -39,35 +39,7 @@ This repo contains a data set from the Chicago Police department for crimes comm
 
 
 
-</tr>
 
-<tr class="column-details" data-column="id" style="display: none;">
-
-<td colspan="4">
-
-<dl class="contents schema-detail-groups" style="height: 0px; padding-top: 0px; padding-bottom: 0px;">
-
-<div class="schema-detail-group">
-
-<dt class="schema-detail-group-title">Data Type</dt>
-
-<dd class="schema-detail-group-value">[Number](https://dev.socrata.com/docs/datatypes/number.html)</dd>
-
-</div>
-
-<div class="schema-detail-group">
-
-<dt class="schema-detail-group-title">API Field Name</dt>
-
-<dd class="schema-detail-group-value">id</dd>
-
-</div>
-
-</dl>
-
-</td>
-
-</tr>
 
 <tr class="column-summary" data-column="case_number" aria-expanded="false" aria-haspopup="true" role="link" tabindex="0">
 
@@ -89,33 +61,6 @@ This repo contains a data set from the Chicago Police department for crimes comm
 
 </tr>
 
-<tr class="column-details" data-column="case_number" style="display: none;">
-
-<td colspan="4">
-
-<dl class="contents schema-detail-groups" style="height: 0px; padding-top: 0px; padding-bottom: 0px;">
-
-<div class="schema-detail-group">
-
-<dt class="schema-detail-group-title">Data Type</dt>
-
-<dd class="schema-detail-group-value">[Text](https://dev.socrata.com/docs/datatypes/text.html)</dd>
-
-</div>
-
-<div class="schema-detail-group">
-
-<dt class="schema-detail-group-title">API Field Name</dt>
-
-<dd class="schema-detail-group-value">case_number</dd>
-
-</div>
-
-</dl>
-
-</td>
-
-</tr>
 
 <tr class="column-summary" data-column="date" aria-expanded="false" aria-haspopup="true" role="link" tabindex="0">
 
@@ -137,33 +82,6 @@ This repo contains a data set from the Chicago Police department for crimes comm
 
 </tr>
 
-<tr class="column-details" data-column="date" style="display: none;">
-
-<td colspan="4">
-
-<dl class="contents schema-detail-groups" style="height: 0px; padding-top: 0px; padding-bottom: 0px;">
-
-<div class="schema-detail-group">
-
-<dt class="schema-detail-group-title">Data Type</dt>
-
-<dd class="schema-detail-group-value">[Floating Timestamp](https://dev.socrata.com/docs/datatypes/floating_timestamp.html)</dd>
-
-</div>
-
-<div class="schema-detail-group">
-
-<dt class="schema-detail-group-title">API Field Name</dt>
-
-<dd class="schema-detail-group-value">date</dd>
-
-</div>
-
-</dl>
-
-</td>
-
-</tr>
 
 <tr class="column-summary" data-column="block" aria-expanded="false" aria-haspopup="true" role="link" tabindex="0">
 
@@ -185,33 +103,7 @@ This repo contains a data set from the Chicago Police department for crimes comm
 
 </tr>
 
-<tr class="column-details" data-column="block" style="display: none;">
 
-<td colspan="4">
-
-<dl class="contents schema-detail-groups" style="height: 0px; padding-top: 0px; padding-bottom: 0px;">
-
-<div class="schema-detail-group">
-
-<dt class="schema-detail-group-title">Data Type</dt>
-
-<dd class="schema-detail-group-value">[Text](https://dev.socrata.com/docs/datatypes/text.html)</dd>
-
-</div>
-
-<div class="schema-detail-group">
-
-<dt class="schema-detail-group-title">API Field Name</dt>
-
-<dd class="schema-detail-group-value">block</dd>
-
-</div>
-
-</dl>
-
-</td>
-
-</tr>
 
 <tr class="column-summary" data-column="iucr" aria-expanded="false" aria-haspopup="true" role="link" tabindex="0">
 
@@ -233,33 +125,7 @@ This repo contains a data set from the Chicago Police department for crimes comm
 
 </tr>
 
-<tr class="column-details" data-column="iucr" style="display: none;">
 
-<td colspan="4">
-
-<dl class="contents schema-detail-groups" style="height: 0px; padding-top: 0px; padding-bottom: 0px;">
-
-<div class="schema-detail-group">
-
-<dt class="schema-detail-group-title">Data Type</dt>
-
-<dd class="schema-detail-group-value">[Text](https://dev.socrata.com/docs/datatypes/text.html)</dd>
-
-</div>
-
-<div class="schema-detail-group">
-
-<dt class="schema-detail-group-title">API Field Name</dt>
-
-<dd class="schema-detail-group-value">iucr</dd>
-
-</div>
-
-</dl>
-
-</td>
-
-</tr>
 
 <tr class="column-summary" data-column="primary_type" aria-expanded="false" aria-haspopup="true" role="link" tabindex="0">
 
@@ -281,33 +147,7 @@ This repo contains a data set from the Chicago Police department for crimes comm
 
 </tr>
 
-<tr class="column-details" data-column="primary_type" style="display: none;">
 
-<td colspan="4">
-
-<dl class="contents schema-detail-groups" style="height: 0px; padding-top: 0px; padding-bottom: 0px;">
-
-<div class="schema-detail-group">
-
-<dt class="schema-detail-group-title">Data Type</dt>
-
-<dd class="schema-detail-group-value">[Text](https://dev.socrata.com/docs/datatypes/text.html)</dd>
-
-</div>
-
-<div class="schema-detail-group">
-
-<dt class="schema-detail-group-title">API Field Name</dt>
-
-<dd class="schema-detail-group-value">primary_type</dd>
-
-</div>
-
-</dl>
-
-</td>
-
-</tr>
 
 <tr class="column-summary" data-column="description" aria-expanded="false" aria-haspopup="true" role="link" tabindex="0">
 
@@ -326,36 +166,6 @@ This repo contains a data set from the Chicago Police department for crimes comm
 </td>
 
 
-
-</tr>
-
-<tr class="column-details" data-column="description" style="display: none;">
-
-<td colspan="4">
-
-<dl class="contents schema-detail-groups" style="height: 0px; padding-top: 0px; padding-bottom: 0px;">
-
-<div class="schema-detail-group">
-
-<dt class="schema-detail-group-title">Data Type</dt>
-
-<dd class="schema-detail-group-value">[Text](https://dev.socrata.com/docs/datatypes/text.html)</dd>
-
-</div>
-
-<div class="schema-detail-group">
-
-<dt class="schema-detail-group-title">API Field Name</dt>
-
-<dd class="schema-detail-group-value">description</dd>
-
-</div>
-
-</dl>
-
-</td>
-
-</tr>
 
 <tr class="column-summary" data-column="location_description" aria-expanded="false" aria-haspopup="true" role="link" tabindex="0">
 
@@ -377,33 +187,7 @@ This repo contains a data set from the Chicago Police department for crimes comm
 
 </tr>
 
-<tr class="column-details" data-column="location_description" style="display: none;">
 
-<td colspan="4">
-
-<dl class="contents schema-detail-groups" style="height: 0px; padding-top: 0px; padding-bottom: 0px;">
-
-<div class="schema-detail-group">
-
-<dt class="schema-detail-group-title">Data Type</dt>
-
-<dd class="schema-detail-group-value">[Text](https://dev.socrata.com/docs/datatypes/text.html)</dd>
-
-</div>
-
-<div class="schema-detail-group">
-
-<dt class="schema-detail-group-title">API Field Name</dt>
-
-<dd class="schema-detail-group-value">location_description</dd>
-
-</div>
-
-</dl>
-
-</td>
-
-</tr>
 
 <tr class="column-summary" data-column="arrest" aria-expanded="false" aria-haspopup="true" role="link" tabindex="0">
 
@@ -422,34 +206,6 @@ This repo contains a data set from the Chicago Police department for crimes comm
 </td>
 
 
-
-</tr>
-
-<tr class="column-details" data-column="arrest" style="display: none;">
-
-<td colspan="4">
-
-<dl class="contents schema-detail-groups" style="height: 0px; padding-top: 0px; padding-bottom: 0px;">
-
-<div class="schema-detail-group">
-
-<dt class="schema-detail-group-title">Data Type</dt>
-
-<dd class="schema-detail-group-value">[Checkbox](https://dev.socrata.com/docs/datatypes/checkbox.html)</dd>
-
-</div>
-
-<div class="schema-detail-group">
-
-<dt class="schema-detail-group-title">API Field Name</dt>
-
-<dd class="schema-detail-group-value">arrest</dd>
-
-</div>
-
-</dl>
-
-</td>
 
 </tr>
 
@@ -473,33 +229,6 @@ This repo contains a data set from the Chicago Police department for crimes comm
 
 </tr>
 
-<tr class="column-details" data-column="domestic" style="display: none;">
-
-<td colspan="4">
-
-<dl class="contents schema-detail-groups" style="height: 0px; padding-top: 0px; padding-bottom: 0px;">
-
-<div class="schema-detail-group">
-
-<dt class="schema-detail-group-title">Data Type</dt>
-
-<dd class="schema-detail-group-value">[Checkbox](https://dev.socrata.com/docs/datatypes/checkbox.html)</dd>
-
-</div>
-
-<div class="schema-detail-group">
-
-<dt class="schema-detail-group-title">API Field Name</dt>
-
-<dd class="schema-detail-group-value">domestic</dd>
-
-</div>
-
-</dl>
-
-</td>
-
-</tr>
 
 <tr class="column-summary" data-column="beat" aria-expanded="false" aria-haspopup="true" role="link" tabindex="0">
 
@@ -521,33 +250,6 @@ This repo contains a data set from the Chicago Police department for crimes comm
 
 </tr>
 
-<tr class="column-details" data-column="beat" style="display: none;">
-
-<td colspan="4">
-
-<dl class="contents schema-detail-groups" style="height: 0px; padding-top: 0px; padding-bottom: 0px;">
-
-<div class="schema-detail-group">
-
-<dt class="schema-detail-group-title">Data Type</dt>
-
-<dd class="schema-detail-group-value">[Text](https://dev.socrata.com/docs/datatypes/text.html)</dd>
-
-</div>
-
-<div class="schema-detail-group">
-
-<dt class="schema-detail-group-title">API Field Name</dt>
-
-<dd class="schema-detail-group-value">beat</dd>
-
-</div>
-
-</dl>
-
-</td>
-
-</tr>
 
 <tr class="column-summary" data-column="district" aria-expanded="false" aria-haspopup="true" role="link" tabindex="0">
 
@@ -569,33 +271,6 @@ This repo contains a data set from the Chicago Police department for crimes comm
 
 </tr>
 
-<tr class="column-details" data-column="district" style="display: none;">
-
-<td colspan="4">
-
-<dl class="contents schema-detail-groups" style="height: 0px; padding-top: 0px; padding-bottom: 0px;">
-
-<div class="schema-detail-group">
-
-<dt class="schema-detail-group-title">Data Type</dt>
-
-<dd class="schema-detail-group-value">[Text](https://dev.socrata.com/docs/datatypes/text.html)</dd>
-
-</div>
-
-<div class="schema-detail-group">
-
-<dt class="schema-detail-group-title">API Field Name</dt>
-
-<dd class="schema-detail-group-value">district</dd>
-
-</div>
-
-</dl>
-
-</td>
-
-</tr>
 
 <tr class="column-summary" data-column="ward" aria-expanded="false" aria-haspopup="true" role="link" tabindex="0">
 
@@ -617,33 +292,6 @@ This repo contains a data set from the Chicago Police department for crimes comm
 
 </tr>
 
-<tr class="column-details" data-column="ward" style="display: none;">
-
-<td colspan="4">
-
-<dl class="contents schema-detail-groups" style="height: 0px; padding-top: 0px; padding-bottom: 0px;">
-
-<div class="schema-detail-group">
-
-<dt class="schema-detail-group-title">Data Type</dt>
-
-<dd class="schema-detail-group-value">[Number](https://dev.socrata.com/docs/datatypes/number.html)</dd>
-
-</div>
-
-<div class="schema-detail-group">
-
-<dt class="schema-detail-group-title">API Field Name</dt>
-
-<dd class="schema-detail-group-value">ward</dd>
-
-</div>
-
-</dl>
-
-</td>
-
-</tr>
 
 <tr class="column-summary" data-column="community_area" aria-expanded="false" aria-haspopup="true" role="link" tabindex="0">
 
@@ -665,33 +313,6 @@ This repo contains a data set from the Chicago Police department for crimes comm
 
 </tr>
 
-<tr class="column-details" data-column="community_area" style="display: none;">
-
-<td colspan="4">
-
-<dl class="contents schema-detail-groups" style="height: 0px; padding-top: 0px; padding-bottom: 0px;">
-
-<div class="schema-detail-group">
-
-<dt class="schema-detail-group-title">Data Type</dt>
-
-<dd class="schema-detail-group-value">[Text](https://dev.socrata.com/docs/datatypes/text.html)</dd>
-
-</div>
-
-<div class="schema-detail-group">
-
-<dt class="schema-detail-group-title">API Field Name</dt>
-
-<dd class="schema-detail-group-value">community_area</dd>
-
-</div>
-
-</dl>
-
-</td>
-
-</tr>
 
 <tr class="column-summary" data-column="fbi_code" aria-expanded="false" aria-haspopup="true" role="link" tabindex="0">
 
@@ -713,33 +334,6 @@ This repo contains a data set from the Chicago Police department for crimes comm
 
 </tr>
 
-<tr class="column-details" data-column="fbi_code" style="display: none;">
-
-<td colspan="4">
-
-<dl class="contents schema-detail-groups" style="height: 0px; padding-top: 0px; padding-bottom: 0px;">
-
-<div class="schema-detail-group">
-
-<dt class="schema-detail-group-title">Data Type</dt>
-
-<dd class="schema-detail-group-value">[Text](https://dev.socrata.com/docs/datatypes/text.html)</dd>
-
-</div>
-
-<div class="schema-detail-group">
-
-<dt class="schema-detail-group-title">API Field Name</dt>
-
-<dd class="schema-detail-group-value">fbi_code</dd>
-
-</div>
-
-</dl>
-
-</td>
-
-</tr>
 
 <tr class="column-summary" data-column="x_coordinate" aria-expanded="false" aria-haspopup="true" role="link" tabindex="0">
 
@@ -761,33 +355,6 @@ This repo contains a data set from the Chicago Police department for crimes comm
 
 </tr>
 
-<tr class="column-details" data-column="x_coordinate" style="display: none;">
-
-<td colspan="4">
-
-<dl class="contents schema-detail-groups" style="height: 0px; padding-top: 0px; padding-bottom: 0px;">
-
-<div class="schema-detail-group">
-
-<dt class="schema-detail-group-title">Data Type</dt>
-
-<dd class="schema-detail-group-value">[Number](https://dev.socrata.com/docs/datatypes/number.html)</dd>
-
-</div>
-
-<div class="schema-detail-group">
-
-<dt class="schema-detail-group-title">API Field Name</dt>
-
-<dd class="schema-detail-group-value">x_coordinate</dd>
-
-</div>
-
-</dl>
-
-</td>
-
-</tr>
 
 <tr class="column-summary" data-column="y_coordinate" aria-expanded="false" aria-haspopup="true" role="link" tabindex="0">
 
@@ -809,33 +376,6 @@ This repo contains a data set from the Chicago Police department for crimes comm
 
 </tr>
 
-<tr class="column-details" data-column="y_coordinate" style="display: none;">
-
-<td colspan="4">
-
-<dl class="contents schema-detail-groups" style="height: 0px; padding-top: 0px; padding-bottom: 0px;">
-
-<div class="schema-detail-group">
-
-<dt class="schema-detail-group-title">Data Type</dt>
-
-<dd class="schema-detail-group-value">[Number](https://dev.socrata.com/docs/datatypes/number.html)</dd>
-
-</div>
-
-<div class="schema-detail-group">
-
-<dt class="schema-detail-group-title">API Field Name</dt>
-
-<dd class="schema-detail-group-value">y_coordinate</dd>
-
-</div>
-
-</dl>
-
-</td>
-
-</tr>
 
 <tr class="column-summary" data-column="year" aria-expanded="false" aria-haspopup="true" role="link" tabindex="0">
 
@@ -857,33 +397,6 @@ This repo contains a data set from the Chicago Police department for crimes comm
 
 </tr>
 
-<tr class="column-details" data-column="year" style="display: none;">
-
-<td colspan="4">
-
-<dl class="contents schema-detail-groups" style="height: 0px; padding-top: 0px; padding-bottom: 0px;">
-
-<div class="schema-detail-group">
-
-<dt class="schema-detail-group-title">Data Type</dt>
-
-<dd class="schema-detail-group-value">[Number](https://dev.socrata.com/docs/datatypes/number.html)</dd>
-
-</div>
-
-<div class="schema-detail-group">
-
-<dt class="schema-detail-group-title">API Field Name</dt>
-
-<dd class="schema-detail-group-value">year</dd>
-
-</div>
-
-</dl>
-
-</td>
-
-</tr>
 
 <tr class="column-summary" data-column="updated_on" aria-expanded="false" aria-haspopup="true" role="link" tabindex="0">
 
@@ -905,33 +418,6 @@ This repo contains a data set from the Chicago Police department for crimes comm
 
 </tr>
 
-<tr class="column-details" data-column="updated_on" style="display: none;">
-
-<td colspan="4">
-
-<dl class="contents schema-detail-groups" style="height: 0px; padding-top: 0px; padding-bottom: 0px;">
-
-<div class="schema-detail-group">
-
-<dt class="schema-detail-group-title">Data Type</dt>
-
-<dd class="schema-detail-group-value">[Floating Timestamp](https://dev.socrata.com/docs/datatypes/floating_timestamp.html)</dd>
-
-</div>
-
-<div class="schema-detail-group">
-
-<dt class="schema-detail-group-title">API Field Name</dt>
-
-<dd class="schema-detail-group-value">updated_on</dd>
-
-</div>
-
-</dl>
-
-</td>
-
-</tr>
 
 <tr class="column-summary" data-column="latitude" aria-expanded="false" aria-haspopup="true" role="link" tabindex="0">
 
@@ -953,33 +439,6 @@ This repo contains a data set from the Chicago Police department for crimes comm
 
 </tr>
 
-<tr class="column-details" data-column="latitude" style="display: none;">
-
-<td colspan="4">
-
-<dl class="contents schema-detail-groups" style="height: 0px; padding-top: 0px; padding-bottom: 0px;">
-
-<div class="schema-detail-group">
-
-<dt class="schema-detail-group-title">Data Type</dt>
-
-<dd class="schema-detail-group-value">[Number](https://dev.socrata.com/docs/datatypes/number.html)</dd>
-
-</div>
-
-<div class="schema-detail-group">
-
-<dt class="schema-detail-group-title">API Field Name</dt>
-
-<dd class="schema-detail-group-value">latitude</dd>
-
-</div>
-
-</dl>
-
-</td>
-
-</tr>
 
 <tr class="column-summary" data-column="longitude" aria-expanded="false" aria-haspopup="true" role="link" tabindex="0">
 
@@ -1001,33 +460,7 @@ This repo contains a data set from the Chicago Police department for crimes comm
 
 </tr>
 
-<tr class="column-details" data-column="longitude" style="display: none;">
 
-<td colspan="4">
-
-<dl class="contents schema-detail-groups" style="height: 0px; padding-top: 0px; padding-bottom: 0px;">
-
-<div class="schema-detail-group">
-
-<dt class="schema-detail-group-title">Data Type</dt>
-
-<dd class="schema-detail-group-value">[Number](https://dev.socrata.com/docs/datatypes/number.html)</dd>
-
-</div>
-
-<div class="schema-detail-group">
-
-<dt class="schema-detail-group-title">API Field Name</dt>
-
-<dd class="schema-detail-group-value">longitude</dd>
-
-</div>
-
-</dl>
-
-</td>
-
-</tr>
 
 <tr class="column-summary" data-column="location" aria-expanded="false" aria-haspopup="true" role="link" tabindex="0">
 
@@ -1047,33 +480,6 @@ This repo contains a data set from the Chicago Police department for crimes comm
 
 
 
-</tr>
-
-<tr class="column-details" data-column="location" style="display: none;">
-
-<td colspan="4">
-
-<dl class="contents schema-detail-groups" style="height: 0px; padding-top: 0px; padding-bottom: 0px;">
-
-<div class="schema-detail-group">
-
-<dt class="schema-detail-group-title">Data Type</dt>
-
-<dd class="schema-detail-group-value">[Location](https://dev.socrata.com/docs/datatypes/location.html)</dd>
-
-</div>
-
-<div class="schema-detail-group">
-
-<dt class="schema-detail-group-title">API Field Name</dt>
-
-<dd class="schema-detail-group-value">location</dd>
-
-</div>
-
-</dl>
-
-</td>
 
 </tr>
 
