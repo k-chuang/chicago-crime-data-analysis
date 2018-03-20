@@ -2,6 +2,14 @@
 
 This repo contains a data set from the Chicago Police department for crimes committed between 2001 to the present(with the exception of murders where data exists for each victim). This project is dedicated to doing some cool data analysis and visualization on this already curated dataset.
 
+Data visualizations were created through the super awesome Python library **folium**, which I highly recommend to make beautiful map visualizations.
+
+Some visualizations were not able to render properly in jupyter notebook, due to a large dataset, but I have saved all of the visualizations as html files in the 'visualization' folder.
+
+Also, here is the nbviewer for my jupyter notebook where most of the maps are rendered with the exception of one: [Notebook Viewer](http://nbviewer.jupyter.org/github/k-chuang/Chicago-Crime-Data-Analysis/blob/master/Chicago-Crime-Data-Analysis.ipynb)
+
+
+
 ## Description of Columns:
 <table class="table table-borderless table-condensed table-discrete schema-table">
 
@@ -477,8 +485,6 @@ This repo contains a data set from the Chicago Police department for crimes comm
 <div><span aria-hidden="true" class="icon icon-map"></span><span class="type-name" data-name="location">Location</span></div>
 
 </td>
-
-
 
 
 </tr>
