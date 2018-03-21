@@ -4,7 +4,7 @@ This repo contains a data set from the Chicago Police department for crimes comm
 
 Data visualizations were created through the super awesome Python library **folium**, which I highly recommend to make beautiful map visualizations.
 
-Some visualizations were not able to render properly in jupyter notebook, due to a large dataset, but I have saved all of the visualizations as html files in the 'visualization' folder.
+Some visualizations were not able to render properly in jupyter notebook, due to a large dataset, but I have saved all of the visualizations as html files in the [visualization](https://github.com/k-chuang/Chicago-Crime-Data-Analysis/tree/master/visualizations) folder. There are some more in depth visualizations located in that folder as well, such as all Chicago crimes reported in 2018 so far. 
 
 Also, here is the nbviewer for my jupyter notebook where most of the maps are rendered with the exception of one: [Notebook Viewer](http://nbviewer.jupyter.org/github/k-chuang/Chicago-Crime-Data-Analysis/blob/master/Chicago-Crime-Data-Analysis.ipynb)
 
