@@ -6,7 +6,7 @@ Data visualizations were created through the super awesome Python library **foli
 
 Some visualizations were not able to render properly in jupyter notebook, due to a large dataset, but I have saved all of the visualizations as html files in the [visualization](https://github.com/k-chuang/Chicago-Crime-Data-Analysis/tree/master/visualizations) folder. There are some more in depth visualizations located in that folder as well, such as all Chicago crimes reported in 2018 so far. 
 
-Also, here is the nbviewer for my jupyter notebook where most of the maps are rendered with the exception of one: [Notebook Viewer](http://nbviewer.jupyter.org/github/k-chuang/Chicago-Crime-Data-Analysis/blob/master/Chicago-Crime-Data-Analysis.ipynb)
+Also, here is the nbviewer for my jupyter notebook where most of the maps are rendered with the exception of one (the visualization doesn't show up in Chrome, but does show up on Firefox or Safari): [Notebook Viewer](http://nbviewer.jupyter.org/github/k-chuang/Chicago-Crime-Data-Analysis/blob/master/Chicago-Crime-Data-Analysis.ipynb)
 
 
 
