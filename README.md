@@ -4,7 +4,15 @@ This repo contains a data set from the Chicago Police department for crimes comm
 
 Data visualizations were created through the super awesome Python library **folium**, which I highly recommend to make beautiful map visualizations.
 
-Some visualizations were not able to render properly in jupyter notebook, due to a large dataset, but I have saved all of the visualizations as html files in the [visualization](https://github.com/k-chuang/Chicago-Crime-Data-Analysis/tree/master/visualizations) folder. There are some more in depth visualizations located in that folder as well, such as all Chicago crimes reported in 2018 so far. 
+Some visualizations were not able to render properly in jupyter notebook, due to a large dataset, but I have saved all of the visualizations (and some more) as html files in the [visualization](https://github.com/k-chuang/Chicago-Crime-Data-Analysis/tree/master/visualizations) folder. 
+
+There are some more in depth visualizations located in that folder as well, such as all Chicago crimes reported in 2018 so far. Descriptions of each map visualization is shown below:
+
+* [2018-chicago-crimes.html](https://github.com/k-chuang/Chicago-Crime-Data-Analysis/blob/master/visualizations/2018-chicago-crimes.html): This map is a detailed map visualization of all the crimes commited in Chicago from Jan. 1, 2018 to March 19, 2018, with popup markers that display more information about each individual map, such as date, time, location, crime type, and crime description.
+* [2018-chicago-crime-heatmap.html](Chicago-Crime-Data-Analysis/visualizations/2018-chicago-crime-heatmap.html): This map contains a heat map of all the crimes commited in Chicago from Jan. 1, 2018 to March 19, 2018.
+* [March-2018-chicago-crimes.html](Chicago-Crime-Data-Analysis/visualizations/March-2018-chicago-crimes.html): This map is a detailed map visualization of all the crimes commited so far in the month of March (March 1, 2018 to March 19, 2018), with popup markers that display more information about each individual map, such as date, time, location, crime type, and crime description.
+* [March-2018-chicago-crime-heatmap.html](Chicago-Crime-Data-Analysis/visualizations/March-2018-chicago-crime-heatmap.html): This map contains a heat map of all crimes commited so far in the month of March (March 1, 2018 to March 19, 2018).
+* [Crime-per-district-choropleth.html](Chicago-Crime-Data-Analysis/visualizations/Crime-per-district-choropleth.html): This map contains a choropleth map of all the crimes from 2001 to present (March 19, 2018) based on [Chicago Police District](https://data.cityofchicago.org/d/fthy-xz3r)
 
 Also, here is the nbviewer for my jupyter notebook where most of the maps are rendered with the exception of one (the visualization doesn't show up in Chrome, but does show up on Firefox or Safari): [Notebook Viewer](http://nbviewer.jupyter.org/github/k-chuang/Chicago-Crime-Data-Analysis/blob/master/Chicago-Crime-Data-Analysis.ipynb)
 
