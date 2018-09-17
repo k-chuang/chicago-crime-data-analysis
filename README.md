@@ -14,7 +14,7 @@ There are some more in depth visualizations located in that folder as well, such
 * [March-2018-chicago-crime-heatmap.html](Chicago-Crime-Data-Analysis/visualizations/March-2018-chicago-crime-heatmap.html): This map contains a heat map of all crimes commited so far in the month of March (March 1, 2018 to March 19, 2018).
 * [Crime-per-district-choropleth.html](Chicago-Crime-Data-Analysis/visualizations/Crime-per-district-choropleth.html): This map contains a choropleth map of all the crimes from 2001 to present (March 19, 2018) based on [Chicago Police District](https://data.cityofchicago.org/d/fthy-xz3r)
 
-Also, here is the nbviewer for my jupyter notebook where most of the maps are rendered with the exception of one (the visualization occasionally doesn't show up in Chrome, but does show up on Firefox or Safari): [Notebook Viewer](http://nbviewer.jupyter.org/github/k-chuang/Chicago-Crime-Data-Analysis/blob/master/Chicago-Crime-Data-Analysis.ipynb)
+Also, here is the nbviewer for my jupyter notebook where most of the maps are rendered (the visualization occasionally doesn't show up in Chrome, but does show up on Firefox or Safari): [Notebook Viewer](http://nbviewer.jupyter.org/github/k-chuang/Chicago-Crime-Data-Analysis/blob/master/Chicago-Crime-Data-Analysis.ipynb)
 
 
 
@@ -513,3 +513,8 @@ Also, here is the nbviewer for my jupyter notebook where most of the maps are re
 
 ## Source of dataset:
 [Chicago Crime Data from 2001 to present](https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-present/ijzp-q8t2)
+
+## License
+
+See the [LICENSE](https://github.com/k-chuang/chicago-crime-data-analysis/blob/master/LICENSE) file for license rights and limitations (MIT).
+
